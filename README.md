@@ -1,1 +1,2 @@
-# product-landing-page
+# freeCodeCamp Responsive Web Design Certification
+Product Landing Page
