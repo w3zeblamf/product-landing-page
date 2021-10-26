@@ -1,27 +1,162 @@
 <!--freeCodeCamp Web Responsive Certification.
 - Project Name: Product Landing Page
-- GitHub Repository link: 
+- GitHub Repository link: https://w3zeblamf.github.io/product-landing-page/
 ***************************************** -->
-<!-- <!DOCTYPE html>-->
+<!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Font Awesome 6.0.0-beta2 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
-    <!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-<!-- My CSS stylesheet -->
-    <link rel="stylesheet" type="text/css" href="style.css"/> 
-    <title>Product Landing Page</title>
-  </head>
-  <body>
-   
-    <!-- Main Container -->
-    
-    
-    <!--FreeCodeCamp CDN-->
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Font Awesome 6.0.0-beta2 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+
+
+  <!-- My CSS stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Product Landing Page</title>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <div class="main">
+    <header id="header">
+      <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+        alt="logo">
+
+      <nav id="nav-bar">
+        <ul>
+          <li>
+            <a href="#featured" id="nav-link">Features</a>
+          </li>
+          <li>
+            <a href="#video" id="nav-link">How it Works</a>
+          </li>
+          <li>
+            <a href="#pricing" id="nav-link">Pricing</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+  <!-- End of Header -->
+
+  <!-- Main Container -->
+  <div class="container sucbscribe">
+
+ <!-- Email input -->
+<h2>Handcrafted, home-made masterpiece</h2>
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+<input id="email "type="email" placeholder="Enter Your email address" required>
+<input id="input "type="submit" value="Get Started">
+</form>
+</div>
+ <!-- End of Email input -->
+
+<!-- Featured Section -->
+<section id="featured" class="container">
+
+  <!-- Featured Wrapper -->
+  <div class="featured-wrapper">
+    <div class="featured-icon">
+      <i class="fas fa-fire"></i>
+    </div>
+    <div class="featured-text">
+      <h3>Premium Materials</h3>
+      <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+    </div>
+
+  <div class="featured-wrapper">
+    <div class="featured-icon">
+      <i class="fas fa-business-time"></i>
+    </div>
+    <div class="featured-text">
+      <h3>Fast Shipping</h3>
+      <p>We make sure you receive your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+    </div>
+  </div>
+
+</div>
+<div class="featured-wrapper">
+  <div class="featured-icon">
+    <i class="fas fa-battery-three-quarters"></i>
+  </div>
+  <div class="featured-text">
+    <h3>Quality Assurance</h3>
+    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+  </div>
+</div>
+   <!-- End of Featured Wrapper -->
+</section>
+<!-- End of Featured Section -->
+
+<!-- Video Section -->
+<!-- <section id="video">
+ 
+  <iframe width="708" height="398" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section> -->
+<!-- End of Video Section -->
+
+<!-- Price Section -->
+<section id="pricing">
+  <div class="container pricing-wrapper">
+
+    <!-- Pricing Box -->
+    <div class="pricing-box">
+      <h4>TENOR TROMBONE</h4>
+      <p class="price">$600</p>
+      <p>Lorem ipsum</p>
+      <p>Lorem ipsum</p>
+      <p>Lorem ipsum</p>
+      <p>Lorem ipsum</p>
+      <a href="" class="btn">Select</a>
+    </div>
+
+    <div class="pricing-box">
+      <h4>BASS TROMBONE</h4>
+      <p class="price">$900</p>
+      <p>Lorem ipsum</p>
+      <p>Lorem ipsum</p>
+      <p>Lorem ipsum</p>
+      <p>Lorem ipsum</p>
+      <a href="" class="btn">Select</a>
+    </div>
+
+    <div class="pricing-box">
+      <h4>VALVE TROMBONE</h4>
+      <p class="price">$1200</p>
+      <p>Lorem ipsum</p>
+      <p>Lorem ipsum</p>
+      <p>Lorem ipsum</p>
+      <p>Lorem ipsum</p>
+      <a href="" class="btn">Select</a>
+    </div>
+     <!-- End of Pricing Box -->
+  </div>
+</section>
+<!-- End of Price Section -->
+
+<!-- Footer -->
+<div class="footer-nav">
+<ul>
+  <li><a href="">Privacy</a></li>
+  <li><a href="">Terms</a></li>
+  <li><a href="">Contact</a></li>
+</div>
+
+<div class="footer-copyright">
+  © 2021 All right reserved | ZEBLA MF |
+</div>
+<!-- End of Footer -->
+
+<!-- End of Main Container -->
+
+  <!--FreeCodeCamp CDN-->
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
 </html>

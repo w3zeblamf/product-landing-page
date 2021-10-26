@@ -1,4 +1,31 @@
 /* freeCodeCamp Web Responsive Certification.
 - Project Name: Product Landing Page
-- GitHub Repository link: 
+- GitHub Repository link: https://w3zeblamf.github.io/product-landing-page/
 ***************************************** */
+
+/* Set the font size (Google fonts) */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+/* --Reset and Common Styles-- 
+********************************/
+/* The asterisk (*) is known as the CSS universal selectors. It can be used to select any and all types of elements in an HTML page. The asterisk can also be followed by a selector while using to select a child object. This selector is useful when we want to select all the elements on the page. */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* -- End of Reset and Common Styles-- 
+********************************/
