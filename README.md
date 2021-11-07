@@ -1,6 +1,6 @@
 # freeCodeCamp Responsive Web Design Certification
 
-- Product Landing Page
+- Product Landing Page Project
 
 See the project details and requirements on: 
 
