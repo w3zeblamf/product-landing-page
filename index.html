@@ -1,11 +1,10 @@
+<!DOCTYPE html>
 <!--freeCodeCamp Web Responsive Certification.
 - Project Name: Product Landing Page
 - GitHub Repository link: https://w3zeblamf.github.io/product-landing-page/
 ***************************************** -->
-<!DOCTYPE html>
 
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -17,145 +16,212 @@
 
   <!-- My CSS stylesheet -->
   <link rel="stylesheet" type="text/css" href="style.css" />
+ 
   <title>Product Landing Page</title>
+  
+  <link type="image/x-icon" rel="shortcut icon" href="images/coding-favicon.jpg">
+  
+
 </head>
 
 <body>
 
-  <!-- Header -->
-  <div class="main">
-    <header id="header">
-      <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
-        alt="logo">
+<header>
+<div id="header">
 
-      <nav id="nav-bar">
-        <ul>
-          <li>
-            <a href="#featured" id="nav-link">Features</a>
-          </li>
-          <li>
-            <a href="#video" id="nav-link">How it Works</a>
-          </li>
-          <li>
-            <a href="#pricing" id="nav-link">Pricing</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-  </div>
-  <!-- End of Header -->
-
-  <!-- Main Container -->
-  <div class="container sucbscribe">
-
- <!-- Email input -->
-<h2>Handcrafted, home-made masterpiece</h2>
-<form id="form" action="https://www.freecodecamp.com/email-submit">
-<input id="email "type="email" placeholder="Enter Your email address" required>
-<input id="input "type="submit" value="Get Started">
-</form>
+  <!--Logo-->
+<div class="logo">
+    <a href="#" title="Home">
+        <img id="header-img" src="images/coding-logo.bmp" alt="Coding logo">
+    </a>
 </div>
- <!-- End of Email input -->
 
-<!-- Featured Section -->
-<section id="featured" class="container">
-
-  <!-- Featured Wrapper -->
-  <div class="featured-wrapper">
-    <div class="featured-icon">
-      <i class="fas fa-fire"></i>
-    </div>
-    <div class="featured-text">
-      <h3>Premium Materials</h3>
-      <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
-    </div>
-
-  <div class="featured-wrapper">
-    <div class="featured-icon">
-      <i class="fas fa-business-time"></i>
-    </div>
-    <div class="featured-text">
-      <h3>Fast Shipping</h3>
-      <p>We make sure you receive your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
-    </div>
-  </div>
+  <!--End of Logo-->
+  
+   <!--Nav Bar-->
+  <nav id="nav-bar">
+      <ul>
+          <li><a href="#about" class="nav-link" title="About Us">ABOUT US</a></li>
+           <li><a href="#courses" class="nav-link" title="Courses">COURSES</a></li>
+          <li><a href="#pricing" class="nav-link" title="Pricing">PRICING</a></li>
+          <li><a href="#contact" class="nav-link" title="Contact">CONTACT</a></li>
+      </ul>
+  </nav>
+    <!--End of Nav Bar-->
 
 </div>
-<div class="featured-wrapper">
-  <div class="featured-icon">
-    <i class="fas fa-battery-three-quarters"></i>
-  </div>
-  <div class="featured-text">
-    <h3>Quality Assurance</h3>
-    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
-  </div>
-</div>
-   <!-- End of Featured Wrapper -->
-</section>
-<!-- End of Featured Section -->
+</header>
 
-<!-- Video Section -->
-<!-- <section id="video">
+<!-- Main Container -->
  
-  <iframe width="708" height="398" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</section> -->
-<!-- End of Video Section -->
+ <main class="container">
+     <!-- Intro Section -->
+     <section class="intro">
+    <h1 class="main-title sombra"> Study with us and learn how to CODE  </h1>
+     <a href="#courses" class="courses-btn" title="Go to courses">SEE OUR COURSES</a>
+     </section>
+     <!-- End Intro Section -->
+     
+     
+     
+    <!-- About Section -->
+    <section id="about" >
+        <h2 class="heading sombra"> <i class="fas fa-user-graduate fa-2x"></i> / ABOUT US</h2>
+        <p class="about-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolore ea facere saepe odio nulla eligendi! Temporibus sint quis voluptatem repudiandae sed velit aliquam consequatur? Voluptate ratione qui eos reiciendis soluta, dolorem molestiae perferendis fuga magni.</p>
 
-<!-- Price Section -->
-<section id="pricing">
-  <div class="container pricing-wrapper">
-
-    <!-- Pricing Box -->
-    <div class="pricing-box">
-      <h4>TENOR TROMBONE</h4>
-      <p class="price">$600</p>
-      <p>Lorem ipsum</p>
-      <p>Lorem ipsum</p>
-      <p>Lorem ipsum</p>
-      <p>Lorem ipsum</p>
-      <a href="" class="btn">Select</a>
+  <!--Video container-->
+      <div>
+     
+        <iframe id="video" width="640" height="360" src="https://www.youtube.com/embed/mOFoh9FUR8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+   <!--End of Video container-->
+    
+    </section>
 
-    <div class="pricing-box">
-      <h4>BASS TROMBONE</h4>
-      <p class="price">$900</p>
-      <p>Lorem ipsum</p>
-      <p>Lorem ipsum</p>
-      <p>Lorem ipsum</p>
-      <p>Lorem ipsum</p>
-      <a href="" class="btn">Select</a>
-    </div>
+    <section id="courses">
+   <h2 id="courses" class="heading sombra"><i class="fas fa-laptop-code fa-2x"></i> / OUR COURSES</h2>
+   <p class="about-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolore ea facere saepe odio nulla eligendi! Temporibus sint quis voluptatem repudiandae sed velit aliquam consequatur? Voluptate ratione qui eos reiciendis soluta, dolorem molestiae perferendis fuga magni. </p>
 
-    <div class="pricing-box">
-      <h4>VALVE TROMBONE</h4>
-      <p class="price">$1200</p>
-      <p>Lorem ipsum</p>
-      <p>Lorem ipsum</p>
-      <p>Lorem ipsum</p>
-      <p>Lorem ipsum</p>
-      <a href="" class="btn">Select</a>
-    </div>
-     <!-- End of Pricing Box -->
-  </div>
-</section>
-<!-- End of Price Section -->
-
-<!-- Footer -->
-<div class="footer-nav">
-<ul>
-  <li><a href="">Privacy</a></li>
-  <li><a href="">Terms</a></li>
-  <li><a href="">Contact</a></li>
-</div>
-
-<div class="footer-copyright">
-  © 2021 All right reserved | ZEBLA MF |
-</div>
-<!-- End of Footer -->
-
+    <!--Icons Container-->
+     <div class="icons">
+        <div class="icon-div">
+             <i class="fab fa-html5 fa-courses sombra"></i>
+            
+            <div>
+                <h3 class="icon-heading">
+                    HTML 5
+                </h3>
+                <p class="icon-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus voluptatibus, dicta dolores porro, rem natus!</p>
+            </div>
+        </div>
+         
+         <div class="icon-div">
+            <i class="fab fa-css3-alt fa-courses sombra"></i>
+            
+            <div>
+                <h3 class="icon-heading">
+                    CSS 3
+                </h3>
+                <p class="icon-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus voluptatibus, dicta dolores porro, rem natus!</p>
+            </div>
+        </div>
+         
+           <div class="icon-div">
+            <i class="fab fa-js fa-courses sombra"></i>
+            
+            <div>
+                <h3 class="icon-heading">
+                    JAVASCRIPT
+                </h3>
+                <p class="icon-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus voluptatibus, dicta dolores porro, rem natus!</p>
+            </div>
+        </div>
+        
+          <div class="icon-div">
+            <i class="fab fa-bootstrap fa-courses sombra"></i>
+            
+            <div>
+                <h3 class="icon-heading">
+                    BOOTSTRAP
+                </h3>
+                <p class="icon-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus voluptatibus, dicta dolores porro, rem natus!</p>
+            </div>
+        </div>
+     </div>
+    <!--End of Icons Container-->
+    
+    </section>
+    <!-- End of About Section -->
+    
+    
+     <!--Pricing Section -->
+     <section id="pricing">
+         <h2  class="heading sombra" ><i class="fas fa-hand-holding-usd fa-2x"></i> / PRICING</h2>
+         <div class="pricing-div">
+        
+        <ul class=" pricing-plan">
+        <li class="pricing-title">7 Day Trial <br><small>Limited Access</small></li>
+        <li class="price"><sup>&dollar;</sup> <span class="money">0</span> <sub> / mo</sub></li>
+        <li>Try 5 lessons in each course</li>
+        <li>No credit card required</li>
+        <li>You can upgrade anytime</li>
+        <li style="color: rgba(133,133,189,0.34)"><s style="text-decoration: line-through">Projects with our Cloud IDE</s></li>
+        <li style="color: rgba(133,133,189,0.34)"><s style="text-decoration: line-through">Course completion certificates</s></li>
+        <li style="color: rgba(133,133,189,0.34)"><s style="text-decoration: line-through">Exclusive Slack channel</s></li>
+        <li class="signup"><a class="signup-btn" href="#" title="Signup">TRAY FOR FREE</a></li>
+        </ul>
+        
+       
+      
+        <ul class="pricing-plan">
+        <li class="pricing-title">Standard Account <br><small>Limited Access</small></li>
+        <li class="price"><sup>&dollar;</sup> <span class="money">25</span> <sub> / mo</sub></li>
+        <li>Limited access</li>
+        <li>No credit card required</li>
+        <li>You can upgrade anytime</li>
+        <li style="color: rgba(133,133,189,0.34)"><s style="text-decoration: line-through">Projects with our Cloud IDE</s></li>
+        <li>Course completion certificates</li>
+        <li style="color: rgba(133,133,189,0.34)"><s style="text-decoration: line-through">Exclusive Slack channel</s></li>
+        <li class="signup" ><a class="signup-btn" href="#" title="Signup">SIGNUP NOW</a></li>
+        </ul>
+        
+        <ul class="pricing-plan">
+        <li class="pricing-title">Premium Account <br><small>Unlimited Access</small></li>
+        <li class="price"><sup>&dollar;</sup> <span class="money">40</span> <sub> / mo</sub></li>
+        <li>Get unlimited access</li>
+        <li>Test your knowledge</li>
+        <li>100+ guided projects</li>
+        <li>Projects with our Cloud IDE</li>
+        <li>Course completion certificates</li>
+        <li>Exclusive Slack channel</li>
+        <li class="signup"><a class="signup-btn" href="#" title="Signup">SIGNUP NOW</a></li>
+        </ul>
+        
+        <ul class="pricing-plan">
+        <li class="pricing-title">1 License <br><small>Lifetime Access</small></li>
+        <li class="price"><sup>&dollar;</sup> <span class="money">90</span> <sub> / 1 Time</sub></li>
+        <li>Get Lifetime access</li>
+        <li>Test your knowledge</li>
+        <li>100+ guided projects</li>
+        <li>Projects with our Cloud IDE</li>
+        <li>Course completion certificates</li>
+        <li>Exclusive Slack channel</li>
+        <li class="signup"><a class="signup-btn" href="#" title="Signup">SIGNUP NOW</a></li>
+        </ul>
+         </div>
+     </section>
+     <!--End of Pricing Section -->
+     
+     <!-- Contact Section -->
+     <section id="contact">
+    <h1 class="heading sombra">  <i class="fas fa-envelope"></i> / READY TO GET STARTED?</h1>
+    <p class="contact-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit beatae.<br>
+    Quibusdam debitis culpa, illum sapiente laboriosam.</p>
+    
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+       <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+        <input type="submit" id="submit" value="SUBMIT" title="Submit">
+    </form>
+     </section>
+     <!-- Emd of Contact Section -->
+     
+    <!--Footer Section-->
+      <footer>
+        <p class="copyright"> 2021 &copy; | Zebla MF | All Rights Reserved</p>
+      </footer>
+    <!--End of Footer Section -->
+     
+ </main>
+ 
 <!-- End of Main Container -->
+ 
+  <!-- Scroll up Button -->
+      <a href="#" class="scroll-up-btn" title="Scroll Up">
+       <i class="fas fa-angle-up"></i>
+    </a>
+    <!-- End of Scroll up Button -->
 
-  <!--FreeCodeCamp CDN-->
+ <!-- FreeCodeCamp CDN -->
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
